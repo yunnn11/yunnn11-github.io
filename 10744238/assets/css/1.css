@@ -1,0 +1,84 @@
+
+#list li{
+display:inline;
+padding-right: 50px
+}
+.logo{
+position: fixed;
+}
+#list{
+
+	position: absolute;
+	top:-10px;
+	right:0px;
+	font-size:20px;
+	font-family: Comic Sans MS
+}
+.pic{
+
+	position: absolute;
+	top:200px;
+	left: 300px;
+
+}
+h3{
+position: relative;
+	top:-400px;
+	left: 550px;
+	font-size: 30px;
+	font-family: Microsoft JhengHei;
+}
+ul.title{
+
+	font-size: 20px;
+	line-height: 80px;
+}
+
+.bac{
+width:800px;
+height: 250px;
+margin:0 auto;
+position: relative;
+top:750px;
+border-style: dashed;
+border-radius: 20px;
+border-color: green;
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+}
+.bacW{
+
+	padding-right: 35px;
+	padding-left: 35px;
+}
+.inte{
+
+	width:800px;
+	height:200px;
+	margin: 0 auto;
+	position:relative;
+	top:800px;
+border-style: dashed;
+border-radius: 20px;
+border-color: green;
+	border-radius: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+.inte-W{
+
+	padding-right: 35px;
+	padding-left: 35px;
+}
+.inpic:hover{
+
+	width:200px;
+
+	
+}
+.inpic{
+
+transition-timing-function: linear;
+}
