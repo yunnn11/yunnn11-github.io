@@ -1,0 +1,339 @@
+
+.quote{
+
+	text-align: center;
+	font-family: monospace
+}
+.pic{
+
+text-align: center;
+position: absolute;
+top:30px;
+right: 570px;
+}
+.pic:hover{
+transform: scale(1.1, 1.1);
+transition: 0.5s;
+}
+.header{
+	background-color: white;
+}
+.quote{
+
+	background-color: black;
+	color:white;
+}
+.picW{
+
+	margin: 0 auto;
+	position: absolute;
+	top:330px;
+	left:645px;
+	font-size: 25px;
+}
+
+.intro1{
+position: absolute;
+	top:150px;
+	right:320px;
+font-family: monospace;
+font-size:15px;
+}
+.intro{
+
+	position: absolute;
+	top:330px;
+	right:320px;
+padding-right: 20px;
+padding-left: 20px;
+}
+.club{
+
+	position:absolute;
+	top:500px;
+	height:750px;
+	width:40%;
+	right:800px;
+	font-family:Microsoft JhengHei;
+
+}
+h2:hover{
+
+	color:white;
+}
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 4px;
+  background-color: #F9DCC4;/*線顏色*/
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* Container around content */
+.container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+/* The circles on the timeline */
+.container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: 63px;
+  background-color: white;
+  border: 4px solid #CB997E;/*符號顏色*/
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+  left: 0;
+}
+
+/* Place the container to the right */
+.right {
+  left: 50%;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -16px;
+}
+
+/* The actual content */
+.content {
+  padding: 10px 10px;
+  background-color: #EDDCD2;
+  position: relative;
+  border-radius: 6px;
+}
+.content img{
+ border-radius: 20px;
+  padding-top: 10px;
+}
+.content img:hover{
+transform: scale(1.1, 1.1);
+transition: 0.5s;
+}
+.content1{
+  padding: 10px 10px;
+  background-color: #EDDCD2;
+  position: relative;
+right:50px;
+  border-radius: 6px;
+}
+.content1 img{
+ border-radius: 20px;
+ padding-top: 10px;
+}
+.content1 img:hover{
+transform: scale(1.1, 1.1);
+transition: 0.5s;
+
+}
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+  /* Place the timelime to the left */
+  .timeline::after {
+  left: 31px;
+  }
+  
+  /* Full-width containers */
+  .container {
+  width: 100%;
+  padding-left: 70px;
+  padding-right: 25px;
+  }
+  
+  /* Make sure that all arrows are pointing leftwards */
+  .container::before {
+  left: 60px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+  }
+
+  /* Make sure all circles are at the same spot */
+  .left::after, .right::after {
+  left: 15px;
+  }
+  
+  /* Make all right containers behave like the left ones */
+  .right {
+  left: 0%;
+  }
+}
+.Exp{
+
+	position: absolute;
+	top:2300px;
+	width: 100%
+}
+.e-w{
+	font-family: monospace;
+	font-size:25px;
+}
+.panel img:hover{
+
+	  -webkit-transform: rotate(-10deg);
+            -moz-transform: rotate(-10deg);
+}
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.button {
+  background-color: #CB997E;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  font-size: 16px;
+  margin: 5px 5px;
+  opacity: 0.6;
+  transition: 0.3s;
+  border-radius: 20px;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+.button:hover {opacity: 1}
+.skills{
+position:absolute;
+	top:500px;
+	height:750px;
+	width:40%;
+	left:800px;
+	font-family: Microsoft JhengHei;
+
+}
+.my-progress-bar
+{
+	position: absolute;
+	top:300px;
+	left: 200px;
+	transform:translate(-80%,-80%);
+}
+.my-progress-bar1
+{
+	position: absolute;
+	top:300px;
+	left: 550px;
+	transform:translate(-80%,-80%);
+}
+.my-progress-bar2
+{
+	position: absolute;
+	top:700px;
+	left:200px;
+	transform:translate(-80%,-80%);
+}
+.my-progress-bar3
+{
+	position: absolute;
+	top:700px;
+	left:550px;
+	transform:translate(-80%,-80%);
+}
+.my-progress-bar4
+{
+	position: absolute;
+	top:1100px;
+	left:200px;
+	transform:translate(-80%,-80%);
+}
+.my-progress-bar5
+{
+	position: absolute;
+	top:1100px;
+	left:550px;
+	transform:translate(-80%,-80%);
+}
+
+.c-w{
+
+	position: absolute;
+	left:300px;
+	top:50px;
+	font-family: monospace;
+}
+.c-w1{
+
+	position: absolute;
+	top:50px;
+	font-family: monospace;
+}
+.c-w2{
+
+	position: absolute;
+	top:450px;
+	font-family: monospace;
+}
+.c-w3{
+
+	position: absolute;
+	left:300px;
+	top:450px;
+	font-family: monospace;
+}
+.c-w4{
+
+	position: absolute;
+	top:850px;
+	font-family:Microsoft JhengHei; 
+}
+.c-w5{
+
+	position: absolute;
+	left:300px;
+	top:850px;
+		font-family:Microsoft JhengHei; 
+}

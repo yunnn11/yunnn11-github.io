@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Yunnn</title>
+	<style>
+		@import"assets/css/2.css";
+		
+	</style>
+	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+	<script src="assets/js/plugin.js"></script>
+	<script src="assets/js/timeline.js"></script>
+	<header>
+	<div class="header" style="background-color: white;">
+		<div class="quote">The world is wide and the life is short</div>
+		<div class="pic"><img src="assets/img/p1.png" style="width:300px;height: 300px;"></div>
+		<div class="intro1">tel:0988677825<br><br>date of birth:2000/01/31<br><br>email:anna013131@gmail.com</div>
+		<div class="intro"><a href="https://yunnn11.github.io/10744238/index.html"><img src="assets/img/web.png"></a>
+			<a href="https://www.facebook.com/zhang.y.yi.7"><img src="assets/img/fb.png"></a>
+			<a href="https://instagram.com/yoo_ut?igshid=1n67vwplx5ne3"><img src="assets/img/ins.png"></a>
+		<a href="mailto:anna013131@gmail.com"><img src="assets/img/email.png"></a></div>
+		<div class="picW"><p>YunYi's Profile</p><hr/></div>
+			
+	</div>
+</header>
+</head>
+<body background="assets/img/bg.jpg">
+	<div class="Exp">
+		<div class="e-w"><p>Experience</p></div>
+		<button class="accordion">管理學 | 木匠的家</button>
+		<div class="panel">
+  	<p>「從什麼時候開始我們忘了珍惜?」<br>協助木匠的家舉辦義賣再生木作/衣作商品的活動，讓更多人知道木匠的家的理念。<a href="https://www.carpenter.org.tw/"><button class="button">點我看網頁</button></a></p>
+  	<img src="assets/img/e1.jpg" style="padding:10px;">
+	</div>
+	<button class="accordion">企業概論 | 喜「捲」而來</button>
+	<div class="panel">
+  	<p>「給他們有一個終老的家」<br>與方舟啟智教養院合作，透過實體和線上行銷販賣憨寶貝親手製作的蛋捲，販賣所得全數回饋給方舟，協助他們有個終老的家。<a href="https://www.funchao.com.tw/"><button class="button">點我看網頁</button></a><br>
+  	<img src="assets/img/e2.jpg" style="padding:10px;"></p>
+	</div>
+	<button class="accordion">網路程式設計 | Magic Poison</button>
+	<div class="panel">
+  	<p>和隔壁班合作完成一完整的購物網站，主要負責後端開發<br><img src="assets/img/pg1.png" style="padding:10px;">
+  		</p>
+	</div>
+	<button class="accordion">多媒體程式設計 | 你不可不知的中原三大學習資源!</button>
+	<div class="panel">
+  	<p>結合行銷中原大學以及課堂所學，整理了中原的學習資源而製作的網頁、影片。<a href="https://youtu.be/EsnXk0DuttA"><button class="button">點我看影片</button></a></p>
+	</div>
+	</div>
+	<script>
+
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+
+	</script>
+	<div class="club">
+		<div calss="c-tit" style="font-size: 25px; padding-bottom: 10px; font-family: monospace;">Club Experience</div>
+		<div class="c-img">
+			<div class="timeline">
+  <div class="container left">
+    <div class="content1">
+      <h2>五校送舊</h2>
+      <p>第一次舉辦大活動，壓力大到爆哭，還是有待加強的地方不過最後還是圓滿落幕<br><img src="assets/img/c1.jpg"></p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>校內迎新</h2>
+      <p>當時是暑假，超熱的的的的的<br><img src="assets/img/c2.jpg"></p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content1">
+      <h2>茶會</h2>
+      <p>結束後的聚餐<br><img src="assets/img/c3.jpg"></p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>卸幹</h2>
+      <p>時間過很快輪到我們被送舊了QQ<br><img src="assets/img/c4.jpg"></p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content1">
+      <h2>Vlogger</h2>
+      <p><img src="assets/img/v.png"></p>
+    </div>
+  </div>
+</div>
+		</div>
+	</div>
+<div class="skills">
+	<div class="s-tit" style="font-size: 25px; padding-bottom: 10px; font-family: monospace;">Skills<br><br><br>
+	<div class="1"><div class="c-w1">C#</div>
+<div class="my-progress-bar"></div>
+
+</div>
+<div class="2"><div class="c-w">CSS/HTML</div>
+<div class="my-progress-bar1"></div>
+
+	</div>
+	<div class="3"><div class="c-w2">JQuery</div>
+<div class="my-progress-bar2"></div>
+
+	</div>
+<div class="3"><div class="c-w3">Java</div>
+<div class="my-progress-bar3"></div>
+	</div>
+<div class="4"><div class="c-w4">文書</div>
+<div class="my-progress-bar4"></div>
+	</div>
+<div class="5"><div class="c-w5">後製</div>
+<div class="my-progress-bar5"></div>
+	</div>
+</div>
+</body>
+</html>
